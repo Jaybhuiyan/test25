@@ -1,0 +1,70 @@
+npx react-router-dom newfolder
+
+npm install react-router-dom
+
+How to install ag grid with react:   npm install --save @ag-grid-community/react axios
+
+
+npm install react-router-dom axios firebase
+
+npm start
+
+How to install completely new REACT application inside folder:   npm init react-app react-deploy
+
+cd react-deploy
+
+npm start
+
+ctrl c
+npm install gh-pages --save-dep
+
+<In the assignment project files, styles folder needs to be inside dist folder>
+
+Firebase info:
+ // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAf4cSycWmVJu_K3Tc-T1VdrTa8KBX5cyk",
+  authDomain: "jalal-s-quiz-website.firebaseapp.com",
+  databaseURL: "https://jalal-s-quiz-website-default-rtdb.firebaseio.com",
+  projectId: "jalal-s-quiz-website",
+  storageBucket: "jalal-s-quiz-website.appspot.com",
+  messagingSenderId: "510230650147",
+  appId: "1:510230650147:web:682e5465162fe9109f8096",
+  measurementId: "G-T5N48JXWWH"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+HOW TO EXPORT TO GITHUB:
+If GitHub is installed:
+Run on VS Code/CPrompt:  npm install gh-pages --save-dep
+Create GitHub new repository
+Copy from  ...Push  an existing repository
+Paste inside Command line in VS Code
+type: git add -A
+type: git commit -m "Initial Commit"
+Type: git push -u origin master
+=================
+"homepage": "https://Jaybhuiyan.github.io/SharePrice-Draft",
+
+URL to share:   https://jaybhuiyan.github.io/SharePrice-Draft/
+                https://jaybhuiyan.github.io/SharePrice-Draft/
+
+npm install gh-pages --save-dev
+
+ "predeploy": "npm run build",
+ "deploy": "gh-pages -d build",
+ npm run deploy
+
+How to check remote on GITHUB:        git remote -v
+
+How to check if GIT is there: git --version

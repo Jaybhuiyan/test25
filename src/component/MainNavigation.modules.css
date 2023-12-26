@@ -1,0 +1,38 @@
+/* styles.css */
+
+/* Reset default link styles */
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Style for navigation links */
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .nav-link {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    color: #3498db;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+ 
+  
+  .list a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 77px;
+    color: var(--color-primary-400);
+  }
+
+  .list a:hover,
+  .list a.active {
+    color: var(--color-primary-800);
+  }
